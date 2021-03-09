@@ -1,3 +1,6 @@
+img {
+  max-width: 100%;
+}
 header {
   background-color: lavenderblush;
   height: 60px;
@@ -49,13 +52,13 @@ main {
   background-color: tomato;
 }
 .volume {
-  background-color: thistle;
+  background-color: white;
 }
-.lashligt {
-  background-color: beige;
+.lashlift {
+  background-color: rgb(255, 249, 239);
 }
 .makeup {
-  background-color: lemonchiffon;
+  background-color: rgb(251, 251, 242);
 }
 .about {
   background-color: lightgray;
@@ -63,4 +66,53 @@ main {
 
 footer {
   background-color: lightcyan;
+}
+.sectionimage {
+  width: 33%;
+  align-items: center;
+}
+.volume .sectionimage {
+  float: left;
+}
+section p {
+  max-width: 45ch;
+}
+section {
+  padding: 100px;
+}
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  border: black solid 1px;
+}
+
+.sectioncontent {
+  float: right;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-top: 90px;
+  font-size: 20px;
+  text-align: center;
+}
+.lashlift .sectionimage {
+  float: right;
+}
+.sectioncontent2 {
+  float: left;
+  margin-top: 90px;
+  margin-left: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+.makeup .sectionimage {
+  float: left;
+}
+.sectioncontent3 {
+  float: right;
+  margin: 60 60 90 40;
+  text-align: center;
+  /* font-size: 20px; */
+}
+.sectionimage .cosmetic {
+  margin-top: 20px;
 }
