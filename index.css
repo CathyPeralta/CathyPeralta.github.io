@@ -1,0 +1,66 @@
+header {
+  background-color: lavenderblush;
+  height: 60px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.icons {
+}
+.icons img {
+  width: 12px;
+  height: 12px;
+  display: inline;
+}
+.home {
+  width: 40px;
+  height: 20px;
+  float: left;
+  display: inline;
+}
+.home img {
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+}
+.meny {
+  float: right;
+  list-style: none;
+  margin: 0;
+}
+.meny li {
+  display: inline-block;
+  height: 30px;
+  margin: 15px;
+}
+.meny li a {
+  line-height: 30px;
+}
+
+main {
+  background-color: hsl(81, 49%, 93%);
+}
+
+.hero {
+  background-color: tomato;
+}
+.volume {
+  background-color: thistle;
+}
+.lashligt {
+  background-color: beige;
+}
+.makeup {
+  background-color: lemonchiffon;
+}
+.about {
+  background-color: lightgray;
+}
+
+footer {
+  background-color: lightcyan;
+}
