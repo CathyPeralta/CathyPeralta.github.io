@@ -1,3 +1,11 @@
+body {
+  background-size: 90%;
+}
+h2,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 img {
   max-width: 100%;
 }
@@ -12,18 +20,15 @@ header {
   display: table;
 }
 
-.icons {
-}
 .icons img {
   width: 12px;
   height: 12px;
-  display: inline;
+  display: inline-block;
 }
 .home {
   width: 40px;
   height: 20px;
   float: left;
-  display: inline;
 }
 .home img {
   width: 30px;
@@ -45,27 +50,30 @@ header {
 }
 
 main {
-  background-color: hsl(81, 49%, 93%);
+  background-color: #fafafa;
 }
 
 .hero {
-  background-color: tomato;
+  background-color: #fafafa;
+  width: 100%;
+  max-width: 100%;
 }
+
 .volume {
   background-color: white;
 }
 .lashlift {
-  background-color: rgb(255, 249, 239);
+  background-color: rgb(248, 246, 242);
 }
 .makeup {
   background-color: rgb(251, 251, 242);
 }
 .about {
-  background-color: lightgray;
+  background-color: rgb(241, 240, 240);
 }
 
 footer {
-  background-color: lightcyan;
+  background-color: rgb(242, 251, 251);
 }
 .sectionimage {
   width: 33%;
@@ -76,9 +84,13 @@ footer {
 }
 section p {
   max-width: 45ch;
+  line-height: 1.5;
 }
 section {
   padding: 100px;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 90%;
 }
 .wrapper {
   max-width: 1400px;
@@ -109,10 +121,14 @@ section {
 }
 .sectioncontent3 {
   float: right;
-  margin: 60 60 90 40;
+  margin: 60px 60px 60px 40px;
   text-align: center;
-  /* font-size: 20px; */
+  font-size: 20px;
 }
 .sectionimage .cosmetic {
   margin-top: 20px;
+}
+
+label {
+  display: block;
 }
